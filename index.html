@@ -87,3 +87,93 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .geometry-card {
+      margin: 10px;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      text-align: center;
+      max-width: 300px;
+    }
+
+    .geometry-card img {
+      max-width: 100%;
+      border-radius: 50%;
+    }
+
+    .geometry-card h2 {
+      margin-top: 10px;
+    }
+
+    .geometry-card p {
+      color: #666;
+    }
+  </style>
+  <title>Geometry Website</title>
+</head>
+<body>
+
+  <header>
+    <h1>Geometry Hub</h1>
+  </header>
+
+  <main>
+    <div class="geometry-card">
+      <a href="rectangle.html">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6duMwROqTcTi0v-uo-PmuOGrDhyaax8CQbg&usqp=CAU" alt="Rectangle">
+        <h2>Rectangle</h2>
+        <p>Explore the properties and formulas used with Rectangles.</p>
+      </a>
+    </div>
+
+    <div class="geometry-card">
+      <a href="trapezoid.html">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI8Vx6G2tk39s8nvtLUnH8anTBHFekVCw-uA&usqp=CAU" alt="Trapezoid">
+        <h2>Trapezoid</h2>
+        <p>Learn about the different types of Trapezoids and what they are.</p>
+      </a>
+    </div>
+
+    <div class="geometry-card">
+      <a href="line.html">
+        <img src="data:image/png;base64,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" alt="Square">
+        <h2>Line</h2>
+        <p>Discover the features and facts about Lines</p>
+      </a>
+    </div>
+
+    <!-- Add more geometry cards as needed -->
+
+  </main>
+
+</body>
+</html>
+
